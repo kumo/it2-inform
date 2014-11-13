@@ -1,0 +1,103 @@
+"Longbourn" by SSML IT
+
+Part - Longbourn Studio
+
+Library is a scene. Library begins when play begins. Library ends when Mr Bennet has the pair of glasses.
+
+Every turn during the Library, say "Mr Bennet is searching [one of]frantically[or]desperately[at random], 'Where are my [one of]blasted[or]infernal[or]bothersome[at random] glasses?'"
+
+Chapter - Longbourn Studio
+
+When play begins, say "[italic type]It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.[roman type]"
+
+The Studio is a room. "You are in the studio of Longbourn. It is a tranquil room, with the rays of sunlight lighting up the room. There is a desk with multiple things on them."
+
+A man called Mr Bennet is here. The description is "An odd mixture of quick parts, sarcastic humour, reserve, and caprice, that the experience of three-and-twenty years had been insufficient to make his wife understand his character."
+A woman called Mrs Bennet is here. The description is "A woman of mean understanding, little information, and uncertain temper."
+
+There is a desk in the Studio. The desk is scenery. On the desk are some pieces of paper, a diary, a pen, an ink pot.
+
+A pair of glasses are here. They are plural-named. "On the floor you can see a pair of glasses."
+
+Chapter - New 
+
+Section - Breakable items
+
+An object can be broken. An object is usually not broken.
+
+After dropping something for the first time:
+	say "You hear a strange sound and Mr Bennet looks at you with a puzzled expression, 'you didn't just break something did you?'";
+	now the noun is broken;
+
+After dropping the pair of glasses for the first time:
+	say "You hear the lenses shattering as the [pair of glasses] hit the floor. Mr Bennet looks at you with a puzzled expression, 'Those weren't my glasses were they?'";
+	now the pair of glasses are broken;
+	now the printed name of the noun is "broken pair of glasses".
+
+After taking the pair of glasses for the first time, say "You carefully pick up the [pair of glasses], taking care to not smudge the lenses."
+
+After taking the pair of glasses more than one time, say "You pick up the [pair of glasses] taking care to not cut yourself on the broken glass."
+
+Section - Giving
+
+Instead of giving the pair of glasses to Mrs Bennet, say "Mrs Bennet looks at the [pair of glasses] and says, 'Those are not mine -- perhaps they belong to Mr Bennet?".
+
+Instead of giving the pair of glasses to Mr Bennet:
+	say "Mr Bennet takes the [pair of glasses] from you, 'Thank you. I was looking for those[if the pair of glasses are broken], but I can't wear them though if they are broken can I?[otherwise].[end if]'";
+	if the noun is broken:
+		end the story saying "Oh dear, nothing can be read…";
+	otherwise:
+		now Mr Bennet has the noun.
+
+Section - Rules
+
+Instead of taking something which is on the desk:
+  say "'I am sorry, but you can't have [the noun]' says Mr Bennet.".
+
+Part - Ballroom
+
+Ballroom is a scene. Ballroom begins when Library ends.
+
+When Ballroom begins:
+	move the player to the Meryton Ball;
+
+Chapter - Meryton Ball
+
+Meryton Ball is a room. "A luxurious ballroom that not every town has. Tonight is the night then you can dance with anyone, but make sure that you don't make a fool of yourself."
+
+Mr Bingley is a man in the Meryton Ball. The description is "Good-looking and gentlemanlike; he had a pleasant countenance, and easy, unaffected manners."
+
+Mr Darcy is a man in the Meryton Ball. The description is "The gentlemen pronounced him to be a fine figure of a man, the ladies declared he was much handsomer than Mr. Bingley."
+
+Mr Collins is a man in the Meryton Ball. The description is "Mr. Collins was not a sensible man, and the deficiency of nature had been but little assisted by education or society."
+
+Lizzie is a woman in the Meryton Ball.
+
+A bottle of wine is here.
+A statue is here.
+A painting is here.
+A toy is here.
+
+Chapter - New Actions
+
+Section - Dancing
+	
+Dancing with is an action applying to one thing. Understand "dance with [something]" as dancing with.
+
+Instead of dancing with a person, say "You dance with [the noun] and pass many happy moments together."
+
+Instead of dancing with an object:
+	say "You try to dance with [the noun] but everyone laughs at you. It falls on the floor and it breaks, leaving you very embarrassed.";
+	end the story saying "You have made a fool of yourself and you will never be invited to a party again. How can you ever face Mr Darcy again?"
+	
+Chapter - Responses
+
+Section - Asking
+
+Instead of asking Lizzie about "Mr Darcy", say "Lizzie looks at you and with a loud voice proclaims 'He is proud; above his company, and above being pleased; and not all his large estate in Derbyshire could then save him from having a most forbidding, disagreeable countenance."
+
+Instead of asking Mr Collins about "Mr Darcy", say "The nephew of the Right Honourable Lady Catherine de Bourgh, who I have been so fortunate as to be distinguished by the patronage of, and whose bounty and beneficence has preferred me to the valuable rectory of this parish, where it shall be my earnest endeavour to demean myself with grateful respect towards her ladyship, and be ever ready to perform those rites and ceremonies which are instituted by the Church of England."
+
+Chapter - Testing
+
+Test me with "look / take glasses / give glasses to mrs bennet / ask mr bennet about the ball / give the glasses to mr bennet / look at mr collins / dance with mr bingley / dance with the bottle of wine"
