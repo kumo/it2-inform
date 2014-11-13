@@ -1,0 +1,71 @@
+"English Weather" by SSML IT2
+
+When play begins, say "[italic type]Today you are visiting your Great Auntie Vera, but before you leave you just have to examine her garden.[roman type]"
+
+Chapter - The Garden
+
+The English Garden is a room. "Your Great Auntie Vera's garden is a typical English garden with many sights, sounds, and smells. An old fountain is the centre piece of this garden."
+
+There is a sign in the English Garden. The description is "Please do not touch or break anything, and especially, do not ask any inappropriate questions!"
+
+Your Great Auntie Vera is a woman in the English Garden. The description is "She is the sister of your grandmother and demands much respect from you."
+
+There are some flowers in the English Garden. The description of the flowers is "Red and white roses grow in abundance in this garden and they always smell lovely."
+Understand "red" or "white" or "rose" or "roses" as the flowers.
+
+There is a fountain in the English Garden. The fountain is scenery. The description of the fountain is "The fountain is old but impressive and In the centre is a statue of Poseidon. The fountain is no longer working, and you wonder if Poseidon is happy to be without any water."
+Understand "statue" or "Poseidon" or "old" or "impressive" as the fountain.
+
+Every turn, say "You can [one of]hear the bees buzzing under the summer sun[or]feel raindrops falling on your head[or]see a gentle wind making the flowers sway[or]hear thunder in the distance[or]see giant clouds race across the sky[or]feel a strong wind that makes even your Great Auntie Vera's hair dance[at random]."
+
+Chapter - Responses
+
+Section - Smelling
+
+Instead of smelling the flowers, say "They should smell lovely, but you have hay fever."
+
+Instead of smelling Great Auntie Vera, say "A mixture of lavender and liquorice."
+
+Section - Asking
+
+Instead of asking Great Auntie Vera about "the weather", say "She looks up at the sky and smiles. 'You can never be sure how the weather will turn out!'"
+
+Instead of asking Great Auntie Vera about "the flowers", say "'They are lovely aren't they?', she replies. 'I always like to have roses growing in my garden. You can look at them, but you must not touch them!'"
+
+Instead of asking Great Auntie Vera about "the roses", try asking Great Auntie Vera about "the flowers".
+
+Instead of asking Great Auntie Vera about "the fountain", say "'I think that every garden should have one, don't you?' she says."
+
+Chapter - New Actions
+
+Section - Kicking
+
+Kicking is an action applying to one thing. Understand "kick [something]" as kicking.
+
+Instead of kicking something, try attacking the noun.
+
+Section - Picking
+
+Picking is an action applying to one thing. Understand "pick [something]" as picking.
+
+Instead of picking something, try taking the noun.
+
+Chapter - Inappropriate Behaviour
+
+[Doing something to the fountain is inappropriate behaviour.]
+
+Attacking something is inappropriate behaviour.
+
+Taking the flowers is inappropriate behaviour.
+
+Asking Great Auntie Vera about "her age" is inappropriate behaviour.
+
+Asking Great Auntie Vera about "her weight" is inappropriate behaviour.
+
+Instead of inappropriate behaviour:
+	say "Great Auntie Vera looks at you with a surprised look, 'I don't think that is appropriate do you? Oh look at the time, I really must be going!'";
+	end the story saying "You have been sent home."
+	
+Chapter - Testing
+
+Test me with "look / smell flowers / examine flowers / ask her about the roses / pick the flowers"
