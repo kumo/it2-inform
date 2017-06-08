@@ -52,10 +52,12 @@ Instead of preparing the noun with the noun, say "You take half of [the noun] an
 Instead of preparing, say "You combine [the noun] with [the second noun] and make [noun]-[second noun] sashimi, but no-one wants to eat it."
 
 [ New action: PREPARE xyz -- used when the player refers to an ingredient that doesn't exist ]
-Trying to prepare is an action applying to one topic. Understand "prepare [text]" as trying to prepare.
+Preparing wrong ingredients is an action applying to one topic. Understand "prepare [text]" as preparing wrong ingredients.
 
-Instead of trying to prepare, say "Are you sure that those ingredients exist?"
-
+[ The player wants to prepare with ingredients that don't exist. ]
+Carry out preparing wrong ingredients:
+	say "Are you sure those are the right ingredients?"
+    
 [ Let's try and help the player in case they type 'prepare the sushi', by telling them that they made a mistake and that should type something else instead ]
 Understand "prepare the sushi" or "prepare sushi" as a mistake ("Try typing PREPARE an ingredient WITH another.")
 
