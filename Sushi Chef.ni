@@ -1,5 +1,8 @@
 "Sushi Chef" by Robert Clarke / SSML IT2
 
+[ This is the 5th version of the story ]
+The release number is 5.
+
 [ Create a list of sushi requests that we want the player to prepare. Once they have made one, it is classified as done ]
 Request is a kind of value. The requests are tuna sushi, salmon sushi, fried egg sushi. A request can be done or todo. It is usually todo.
 
@@ -42,19 +45,19 @@ Instead of preparing the rice with the fried egg:
 Instead of preparing the rice with the fried tofu:
 	say "You make Inarizushi and it looks great! You eat it before anyone can ask for it.";
 
-[ Since the player could type "prepare fried tofu with rice", to avoid repeating the above lines, let's just try and prepare the rice with the ingredient instead, but making sure that it isn't rice, otherwise the story will explode ]
+[ Since the player could type "prepare fried tofu with rice", to avoid repeating the above lines, let's just try and prepare the rice with the ingredient instead, but only if it isn't rice ]
 Instead of preparing something which is not rice with the rice, try preparing the rice with the noun.
 
 [ The player wants to prepare something with itself ]
-Instead of preparing the noun with the noun, say "You take half of [the noun] and combine it with the other half, and you obviously end up with [noun]."
+Instead of preparing the noun with the noun, say "You take half of [the noun] and combine it with the other half, ending up with [noun]."
 
 [ The player wants to prepare something that we haven't planned ]
-Instead of preparing, say "You combine [the noun] with [the second noun] and make [noun]-[second noun] sashimi, but no-one wants to eat it."
+Instead of preparing, say "You combine [the noun] with [the second noun] and make [noun]-[second noun] sashimi, but no-one wants it."
 
 [ New action: PREPARE xyz -- used when the player refers to an ingredient that doesn't exist ]
 Preparing wrong ingredients is an action applying to one topic. Understand "prepare [text]" as preparing wrong ingredients.
 
-[ The player wants to prepare with ingredients that don't exist. ]
+[ The player wants to prepare ingredients that don't exist. ]
 Carry out preparing wrong ingredients:
 	say "Are you sure those are the right ingredients?"
     
