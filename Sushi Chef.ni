@@ -1,7 +1,7 @@
 "Sushi Chef" by Robert Clarke / SSML IT2
 
-[ This is the 5th version of the story ]
-The release number is 5.
+[ This is the 6th version of the story ]
+The release number is 6.
 
 [ Create a list of sushi requests that we want the player to prepare. Once they have made one, it is classified as done ]
 Request is a kind of value. The requests are tuna sushi, salmon sushi, fried egg sushi. A request can be done or todo. It is usually todo.
@@ -58,7 +58,7 @@ Instead of preparing, say "You combine [the noun] with [the second noun] and mak
 Preparing wrong ingredients is an action applying to one topic. Understand "prepare [text]" as preparing wrong ingredients.
 
 [ The player wants to prepare ingredients that don't exist. ]
-Carry out preparing wrong ingredients:
+Instead of preparing wrong ingredients:
 	say "Are you sure those are the right ingredients?"
     
 [ Let's try and help the player in case they type 'prepare the sushi', by telling them that they made a mistake and that should type something else instead ]
